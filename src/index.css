@@ -21,9 +21,8 @@ code {
   margin-left: 130px;
   margin-top: 20px;
   color: white;
-  height: max-content;
-  background-color: rgb(163, 217, 176);
   font-size: 20px;
+  padding-bottom: 20px;
   font-family: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-35)/var(--unnamed-line-spacing-53) var(--unnamed-font-family-poppins);;
 }
 
@@ -32,6 +31,11 @@ code {
   margin-left: 30px;
   margin-right: 30px;
   font-size: small;
+}
+
+.nav-main .link {
+  color: white;
+  text-decoration: none;
 }
 
 #initials {
@@ -43,15 +47,72 @@ code {
   float: left;
 }
 
-#nav-links {
-  margin-top: 30px;
-}
-
 #links {
   margin-top: 5px;
   height: fit-content;
 }
 
 #name {
-  float: left;
+  float: none;
+}
+
+#main {
+  margin-left: 166px;
+  margin-top: 100px;
+  width: 900px;
+}
+
+#main-text {
+  color: #2CEEF0;
+  font-size: 37px;
+}
+
+#more-info {
+  color: #B4F5F0;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+#button-div {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#button-div .button {
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 480px) {
+  #nav {
+    margin-left: 0px;
+  }
+  .nav-main {
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #name {
+    font-size: 20px;
+  }
+
+  #main {
+    margin-left: 40px;
+    margin-right: 35px;
+    margin-top: 60px;
+    width: 360px;
+    font-size: larger;
+  }
+
+  #more-info {
+    color: #B4F5F0;
+    font-size: smaller;
+  }
+
+  #main-text {
+    font-size: 21px;
+  }
+
+  #button-div .button {
+    margin-right: 21px;
+  }
 }
