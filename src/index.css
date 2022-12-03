@@ -62,9 +62,19 @@ code {
   width: 900px;
 }
 
+#projects-main {
+  margin-top: 40px;
+  margin-left: 140px;
+  margin-right: 60px;
+}
+
+.projects-title {
+  color: '#2CEEF0';
+}
+
 #main-text {
   color: #2CEEF0;
-  font-size: 37px;
+  font-size: 47px;
 }
 
 #more-info {
@@ -82,13 +92,26 @@ code {
   margin-right: 50px;
 }
 
+#about-details {
+  color: '#B4F5F0';
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 180px;
+}
+
 @media screen and (max-width: 480px) {
+
+  #about-details {
+    margin-right: 50px;
+  }
+
   #nav {
     margin-left: 0px;
+    padding-left: 28px;
   }
   .nav-main {
     float: right;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-right: 10px;
   }
   #name {
@@ -103,16 +126,26 @@ code {
     font-size: larger;
   }
 
+  #projects-main {
+    margin-top: 30px;
+    margin-left: 38px;
+    margin-right: 30px;
+  }
+
   #more-info {
     color: #B4F5F0;
     font-size: smaller;
   }
 
   #main-text {
-    font-size: 21px;
+    font-size: 27px;
   }
 
   #button-div .button {
     margin-right: 21px;
+  }
+
+  #initials {
+    margin-left: 10px;
   }
 }
