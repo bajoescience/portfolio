@@ -99,6 +99,11 @@ code {
   margin-right: 180px;
 }
 
+#about-details > div {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
 @media screen and (max-width: 480px) {
 
   #about-details {

@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react'
-import { Outlet, NavLink, useMatch } from 'react-router-dom'
+import { Outlet, NavLink, useMatch, useNavigate } from 'react-router-dom'
 import './index.css'
 
 const App = (props) => {
   const [showName, setShowName] = useState(true)
 
   const match = useMatch('/portfolio')
+  const navigate = useNavigate()
 
 
   useEffect(() => {
@@ -28,12 +29,16 @@ const App = (props) => {
   let activeLinkStyle = {
     color: '#2CEEF0'
   }
+
+  const initialsClick = () => {
+    !match && navigate('/portfolio')
+  }
   return (
     <>
       <div id='body'>
       <div id='nav'>
         <div id='links'>
-          <span id='initials'>{props.initials}</span>
+          <span id='initials' onClick={initialsClick}>{props.initials}</span>
           {showName && <span id='name'><b>{props.name}</b></span>}
           <span className='nav-main'>
             <NavLink 
