@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.db8a9416.css",
-    "main.js": "/portfolio/static/js/main.3a533440.js",
+    "main.css": "/portfolio/static/css/main.c636e40d.css",
+    "main.js": "/portfolio/static/js/main.a5110e1a.js",
     "static/media/coachingappimage.png": "/portfolio/static/media/coachingappimage.04b3316d0a291a59bb0d.png",
     "static/media/symbleapp.png": "/portfolio/static/media/symbleapp.3d6dc76f8716fb8ff4db.png",
     "static/media/chatappimage.png": "/portfolio/static/media/chatappimage.0f89a6294540303702d4.png",
     "index.html": "/portfolio/index.html",
-    "main.db8a9416.css.map": "/portfolio/static/css/main.db8a9416.css.map",
-    "main.3a533440.js.map": "/portfolio/static/js/main.3a533440.js.map"
+    "main.c636e40d.css.map": "/portfolio/static/css/main.c636e40d.css.map",
+    "main.a5110e1a.js.map": "/portfolio/static/js/main.a5110e1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.db8a9416.css",
-    "static/js/main.3a533440.js"
+    "static/css/main.c636e40d.css",
+    "static/js/main.a5110e1a.js"
   ]
 }
