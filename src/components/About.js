@@ -31,7 +31,6 @@ const About = (props) => {
                     marginLeft: {xs: 3, sm: 0},
                     marginRight: {xs: 3, sm: 1},
                     minHeight: {xs: 300, sm: 600}
-                
                 }}
                 >
                     <img alt={props.name.toLowerCase()} className='img' src={props.image} />
@@ -77,21 +76,23 @@ const About = (props) => {
                             </a>
                         </div>
                         <Grid container spacing={3}>
-                            <Grid item xs={12} sm={4}>
+                            <Grid item xs={12}>
                                 <h5 style={{color: '#2CEEF0'}}>SKILLS</h5>
                                 <div style={{color: '#B4F5F0', marginLeft: '-13px', fontSize: 'large'}}>
                                     <ul>
-                                        {props.skills.map((s, i) => <li key={i}>{s}</li>)}
+                                        <Grid container spacing={1}>
+                                            {props.skills.map((s, i) => <Grid item xs={12} sm={4} key={i}><li>{s}</li></Grid>)}
+                                        </Grid>
                                     </ul>
                                 </div>
                             </Grid>
-                            <Grid item xs={12} sm={4}>
+                            <Grid item xs={12}>
                                 <h5 style={{color: '#2CEEF0'}}>VISION</h5>
                                 <p style={{color: '#B4F5F0', fontSize: 'large'}}>
                                     {props.vision}
                                 </p>
                             </Grid>
-                            <Grid item xs={12} sm={4}>
+                            <Grid item xs={12}>
                                 <h5 style={{color: '#2CEEF0'}}>INTEREST</h5>
                                 <p style={{color: '#B4F5F0', fontSize: 'large'}}>
                                     {props.interest}

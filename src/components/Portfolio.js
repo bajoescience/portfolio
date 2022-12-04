@@ -24,8 +24,26 @@ const Portfolio = (props) => {
     const onClick = (page) => () => {   
         navigate(`/portfolio/${page}`)
     }
+
+    const showDesignElements = () => {
+      if (window.screen.width > 600) {
+        return (
+          <>
+            <div className='design-elements' id='img-r1'><img alt='' src={props.designElements.r1} /></div>
+            <div className='design-elements' id='img-r2'><img alt='' src={props.designElements.r2} /></div>
+            <div className='design-elements' id='img-r3'><img alt='' src={props.designElements.r3} /></div>
+            <div className='design-elements' id='img-path'><img alt='' src={props.designElements.path} /></div>
+            <div className='design-elements' id='img-spiral'><img alt='' src={props.designElements.spiral} /></div>
+            <div className='design-elements' id='img-side-circles'><img alt='' id='img-side-circles-img' src={props.designElements.sideCircles} /></div>
+          </>
+        )
+      }
+    }
+
     return (
       <>
+        {showDesignElements()}
+        
         <div id='main'>
           <div id='main-text'>
             <b>{props.headerText}</b>

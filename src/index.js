@@ -14,6 +14,16 @@ import symbleImg from './images/symbleapp.png'
 import chatAppImg from './images/chatappimage.png'
 import coachAppImg from './images/coachingappimage.png'
 import oyinkanImg from './images/oyinkan.jpg'
+import r1 from './images/R 1.png'
+import r2 from './images/R 2.png'
+import r3 from './images/R 3.png'
+import path from './images/Path 1.png'
+import spiral from './images/Spiral.png'
+import sideCircles from './images/side circles.png'
+
+const designElements = {
+  r1, r2, r3, path, spiral, sideCircles
+}
 
 
 document.title = 'PORTFOLIO'
@@ -61,7 +71,7 @@ const router = Router([
   {
     path: "/portfolio",
     element: <App 
-    buttonSize={buttonSize} 
+    buttonSize={buttonSize}
     initials={person.initials} 
     name={person.name.toUpperCase()}
     />,
@@ -71,7 +81,8 @@ const router = Router([
       element: <Portfolio 
       buttonSize={buttonSize} 
       headerText={person.homeDescription} 
-      mainText={person.personDescription} 
+      mainText={person.personDescription}
+      designElements={designElements}
       />,
     }, {
       path: 'projects',
