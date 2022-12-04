@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c636e40d.css",
-    "main.js": "/portfolio/static/js/main.a5110e1a.js",
+    "main.css": "/portfolio/static/css/main.225ec7dd.css",
+    "main.js": "/portfolio/static/js/main.2f41e2e4.js",
+    "static/media/oyinkan.jpg": "/portfolio/static/media/oyinkan.5609bf5964ac2106354d.jpg",
     "static/media/coachingappimage.png": "/portfolio/static/media/coachingappimage.04b3316d0a291a59bb0d.png",
     "static/media/symbleapp.png": "/portfolio/static/media/symbleapp.3d6dc76f8716fb8ff4db.png",
     "static/media/chatappimage.png": "/portfolio/static/media/chatappimage.0f89a6294540303702d4.png",
     "index.html": "/portfolio/index.html",
-    "main.c636e40d.css.map": "/portfolio/static/css/main.c636e40d.css.map",
-    "main.a5110e1a.js.map": "/portfolio/static/js/main.a5110e1a.js.map"
+    "main.225ec7dd.css.map": "/portfolio/static/css/main.225ec7dd.css.map",
+    "main.2f41e2e4.js.map": "/portfolio/static/js/main.2f41e2e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.c636e40d.css",
-    "static/js/main.a5110e1a.js"
+    "static/css/main.225ec7dd.css",
+    "static/js/main.2f41e2e4.js"
   ]
 }
