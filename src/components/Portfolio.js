@@ -61,7 +61,7 @@ const Portfolio = (props) => {
                 variant='outlined' 
                 color='neutral' 
                 size={props.buttonSize()}
-                onClick={onClick('contacts')}
+                onClick={onClick('about')}
                 >Contact me</Button>
               </ThemeProvider>
             </span>

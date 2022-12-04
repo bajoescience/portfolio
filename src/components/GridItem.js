@@ -30,10 +30,13 @@ const GridItem = (props) => {
                 minHeight={270} 
                 minWidth={200} 
                 bgcolor='white'
+                sx={{
+                    minHeight: {xs: 200, sm: 270}
+                }}
                 >
                     <img 
                     alt={`project ${project.id}`} 
-                    style={{objectFit: 'fill', width: '100%', height: '100%'}}
+                    className='img'
                     src={project.image} 
                     />
                 </Box>

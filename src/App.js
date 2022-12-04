@@ -35,6 +35,7 @@ const App = (props) => {
   }
   return (
     <>
+      <span id='initials-double' onClick={initialsClick}>{props.initials}</span>
       <div id='body'>
       <div id='nav'>
         <div id='links'>
