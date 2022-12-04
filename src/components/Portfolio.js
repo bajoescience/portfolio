@@ -31,6 +31,7 @@ const Portfolio = (props) => {
             <b>{props.headerText}</b>
           </div>
           <div id='more-info'>
+            <p style={{color: '#2CAAF0'}}>Why should you hire me?</p>
             <p>{props.mainText}</p>
           </div>
           <div id='button-div'>

@@ -14,7 +14,7 @@ const GridItem = (props) => {
                             {project.description}
                         </p>
                         <p>
-                            <Link color='#fff' href={project.link}>Project Link</Link>
+                            <Link color='#fff' href={project.link} target='_blank'>Project Link</Link>
                         </p>
                     </div>
                 </Box>
@@ -31,14 +31,18 @@ const GridItem = (props) => {
                 minWidth={200} 
                 bgcolor='white'
                 >
-                    <img alt={`project ${project.id}`} src={project.image} />
+                    <img 
+                    alt={`project ${project.id}`} 
+                    style={{objectFit: 'fill', width: '100%', height: '100%'}}
+                    src={project.image} 
+                    />
                 </Box>
             </>
         )
     }
 
     return (
-        <Grid container spacing={4}>
+        <Grid container spacing={4} sx={{paddingBottom: 4}}>
             {(width < 600) ?
             props.projects.map(p => (<>
                 <Grid item xs={12} sm={6}>

@@ -48,10 +48,10 @@ const About = (props) => {
                 <Grid item xs={12} sm={6}>
                     <div id="about-details">
                         <div>
-                            <h1 style={{color: '#2CEEF0'}}>NAME HERE</h1>
+                            <h1 style={{color: '#2CEEF0'}}>{props.name}</h1>
                         </div>
                         <div>
-                            <h5 style={{color: '#2CEEF0'}}>PROJECT TITLE</h5>
+                            <h5 style={{color: '#2CEEF0'}}>A Little More Information About Me</h5>
                         </div>
                         <div>
                             <p style={{color: '#B4F5F0'}}>
@@ -78,9 +78,11 @@ const About = (props) => {
                         <Grid container spacing={3}>
                             <Grid item xs={12} sm={4}>
                                 <h5 style={{color: '#2CEEF0'}}>SKILLS</h5>
-                                <p style={{color: '#B4F5F0'}}>
-                                    {props.skills}
-                                </p>
+                                <div style={{color: '#B4F5F0', marginLeft: '-13px'}}>
+                                    <ul>
+                                        {props.skills.map((s, i) => <li key={i}>{s}</li>)}
+                                    </ul>
+                                </div>
                             </Grid>
                             <Grid item xs={12} sm={4}>
                                 <h5 style={{color: '#2CEEF0'}}>VISION</h5>
