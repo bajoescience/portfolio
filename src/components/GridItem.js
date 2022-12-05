@@ -26,7 +26,7 @@ const GridItem = (props) => {
         return (
             <>
                 <Box 
-                borderRadius={2} 
+                borderRadius={3}
                 minHeight={270} 
                 minWidth={200} 
                 bgcolor='white'
@@ -36,7 +36,7 @@ const GridItem = (props) => {
                 >
                     <img 
                     alt={`project ${project.id}`} 
-                    className='img'
+                    className='img-project'
                     src={project.image} 
                     />
                 </Box>

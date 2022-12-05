@@ -20,6 +20,7 @@ import r3 from './images/R 3.png'
 import path from './images/Path 1.png'
 import spiral from './images/Spiral.png'
 import sideCircles from './images/side circles.png'
+import resumeFile from './images/JOSEPH resume.pdf'
 
 const designElements = {
   r1, r2, r3, path, spiral, sideCircles
@@ -32,7 +33,7 @@ const person = {
   name: 'Joseph Bola-Ajayi',
   initials: 'J',
   image: oyinkanImg,
-  resume: '',
+  resume: resumeFile,
   homeDescription: "Hi, I'm Joseph, a MERN Fullstack Developer",
   personDescription: "I'm an All-Round software developer that specializes in React, NodeJS, ExpressJS and MongoDB and I prioritize correct, well-documented, adaptible and efficient code-writing practices above all else. I build fast, easily navigatable and scalable websites that is tailored to your audience for the best user experience. Click the projects button below to check out my projects",
   projects: [{

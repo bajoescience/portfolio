@@ -63,12 +63,14 @@ const About = (props) => {
                             <a 
                             style={{textDecoration: 'none'}} 
                             href={props.resume !== '' ? props.resume : null}
+                            download
                             >
                                 <ThemeProvider theme={theme}>
                                     <Button 
                                     variant='outlined' 
                                     color='neutral' 
                                     size={props.buttonSize()} 
+                            
                                     >
                                         Get Resume
                                     </Button>
