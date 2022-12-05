@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.dc4c0e3e.css",
-    "main.js": "/portfolio/static/js/main.88893e7f.js",
+    "main.css": "/portfolio/static/css/main.8665c41b.css",
+    "main.js": "/portfolio/static/js/main.5bbd8e93.js",
     "static/media/oyinkan.jpg": "/portfolio/static/media/oyinkan.5609bf5964ac2106354d.jpg",
     "static/media/coachingappimage.png": "/portfolio/static/media/coachingappimage.04b3316d0a291a59bb0d.png",
+    "static/media/JOSEPH resume.pdf": "/portfolio/static/media/JOSEPH resume.a0f2e39fb16e671ead8e.pdf",
     "static/media/symbleapp.png": "/portfolio/static/media/symbleapp.3d6dc76f8716fb8ff4db.png",
     "static/media/chatappimage.png": "/portfolio/static/media/chatappimage.0f89a6294540303702d4.png",
     "static/media/side circles.png": "/portfolio/static/media/side circles.a7092bcc3efb8b17928b.png",
     "static/media/Path 1.png": "/portfolio/static/media/Path 1.902b299c3badd49e4445.png",
     "index.html": "/portfolio/index.html",
-    "main.dc4c0e3e.css.map": "/portfolio/static/css/main.dc4c0e3e.css.map",
-    "main.88893e7f.js.map": "/portfolio/static/js/main.88893e7f.js.map"
+    "main.8665c41b.css.map": "/portfolio/static/css/main.8665c41b.css.map",
+    "main.5bbd8e93.js.map": "/portfolio/static/js/main.5bbd8e93.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc4c0e3e.css",
-    "static/js/main.88893e7f.js"
+    "static/css/main.8665c41b.css",
+    "static/js/main.5bbd8e93.js"
   ]
 }
