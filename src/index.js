@@ -41,18 +41,21 @@ const person = {
     description: "The SYMBLE project is a live streaming service app that allow for real-time streaming of event's and being able to connect with people from all over the world, it is a joint project that is built with Node.js, Express, React, MongoDB and AWS for hosting and configurations",
     image: symbleImg,
     link: 'http://app.symble.live',
+    githubLink: 'https://github.com/symbleapp/spray_node',
     id: 1
   }, {
     title: 'CHATAPP',
     description: 'The CHATAPP project is a realtime chatting app that allows for users to be able to chat with each other. This project is built using React, the IO library, Node.js, Express, MongoDB.',
     image: chatAppImg,
     link: '',
+    githubLink: '',
     id: 2
   }, {
     title: 'COACHING WEBSITE',
     description: "This is a coaching template landing page website that uses vanilla HTML, CSS and JavaScript. It's made to be responsive for all kinds of devices",
     image: coachAppImg,
     link: 'https://bajoescience.github.io/coachjossy/',
+    githubLink: 'https://github.com/bajoescience/coachjossy',
     id: 3
   }],
   skills: ['REACT', 'NODEJS', 'MONGODB', 'EXPRESS', 'PYTHON', 'HTML', 'CSS', 'JAVASCRIPT'],

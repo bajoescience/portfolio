@@ -14,7 +14,8 @@ const GridItem = (props) => {
                             {project.description}
                         </p>
                         <p>
-                            <Link color='#fff' href={project.link} target='_blank'>Project Link</Link>
+                            <span><Link color='#fff' href={project.link} target='_blank'>Project Link</Link></span>
+                            <span style={{marginLeft: '10px'}}><Link color='#fff' href={project.githubLink} target='_blank'>Github Link</Link></span>
                         </p>
                     </div>
                 </Box>
