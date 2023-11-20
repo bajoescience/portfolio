@@ -1,4 +1,4 @@
-import React from 'react';
+  import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import {
@@ -14,6 +14,8 @@ import symbleImg from './images/symbleapp.png'
 import chatAppImg from './images/chatappimage.png'
 import coachAppImg from './images/coachingappimage.png'
 import oyinkanImg from './images/oyinkan.jpg'
+import resturantImg from './images/resturant.png'
+
 import r1 from './images/R 1.png'
 import r2 from './images/R 2.png'
 import r3 from './images/R 3.png'
@@ -32,23 +34,23 @@ document.title = 'PORTFOLIO'
 const person = {
   name: 'Joseph Bola-Ajayi',
   initials: 'J',
-  image: oyinkanImg,
+  image : oyinkanImg,
   resume: resumeFile,
   homeDescription: "Hi, I'm Joseph, a MERN Fullstack Developer",
   personDescription: "I'm an All-Round software developer that specializes in React, NodeJS, ExpressJS and MongoDB and I prioritize correct, well-documented, adaptible and efficient code-writing practices above all else. I build fast, easily navigatable and scalable websites that is tailored to your audience for the best user experience. Click the projects button below to check out my projects",
   projects: [{
-    title: 'SYMBLE',
-    description: "The SYMBLE project is a live streaming service app that allow for real-time streaming of event's and being able to connect with people from all over the world, it is a joint project that is built with Node.js, Express, React, MongoDB and AWS for hosting and configurations",
-    image: symbleImg,
-    link: 'http://app.symble.live',
-    githubLink: 'https://github.com/symbleapp/spray_node',
+    title: "JOE'S RESTURANT",
+    description: "The resturant project is a highly responsive resturant service app that allow for real-time reservation of tables on behalf of a on the ground, it is a joint project that is built with Node.js, Express, React, MongoDB and AWS for hosting and configurations",
+    image: resturantImg,
+    link: 'https://bajoescience.github.io/resturant',
+    githubLink: 'https://github.com/bajoescience/resturant',
     id: 1
   }, {
     title: 'CHATAPP',
     description: 'The CHATAPP project is a realtime chatting app that allows for users to be able to chat with each other. This project is built using React, the IO library, Node.js, Express, MongoDB.',
     image: chatAppImg,
-    link: '',
-    githubLink: '',
+    link: 'https://bajoescience.github.io/chat',
+    githubLink: 'https://github.com/bajoescience/chat',
     id: 2
   }, {
     title: 'COACHING WEBSITE',
@@ -83,7 +85,7 @@ const router = Router([
     children: [{
       path: '',
       element: <Portfolio 
-      buttonSize={buttonSize} 
+      buttonSize={buttonSize}
       headerText={person.homeDescription} 
       mainText={person.personDescription}
       designElements={designElements}
