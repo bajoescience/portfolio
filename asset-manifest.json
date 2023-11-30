@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d333ce8e.css",
-    "main.js": "/portfolio/static/js/main.78764f7c.js",
+    "main.js": "/portfolio/static/js/main.e508bb95.js",
     "static/media/resturant.png": "/portfolio/static/media/resturant.326290cb165a42d65c40.png",
     "static/media/oyinkan.jpg": "/portfolio/static/media/oyinkan.5609bf5964ac2106354d.jpg",
     "static/media/coachingappimage.png": "/portfolio/static/media/coachingappimage.04b3316d0a291a59bb0d.png",
@@ -12,10 +12,10 @@
     "static/media/Path 1.png": "/portfolio/static/media/Path 1.902b299c3badd49e4445.png",
     "index.html": "/portfolio/index.html",
     "main.d333ce8e.css.map": "/portfolio/static/css/main.d333ce8e.css.map",
-    "main.78764f7c.js.map": "/portfolio/static/js/main.78764f7c.js.map"
+    "main.e508bb95.js.map": "/portfolio/static/js/main.e508bb95.js.map"
   },
   "entrypoints": [
     "static/css/main.d333ce8e.css",
-    "static/js/main.78764f7c.js"
+    "static/js/main.e508bb95.js"
   ]
 }
