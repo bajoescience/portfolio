@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d333ce8e.css",
-    "main.js": "/portfolio/static/js/main.1e1ca9e8.js",
+    "main.js": "/portfolio/static/js/main.f6864efb.js",
     "static/js/200.963506ec.chunk.js": "/portfolio/static/js/200.963506ec.chunk.js",
     "static/js/956.fa3d07cd.chunk.js": "/portfolio/static/js/956.fa3d07cd.chunk.js",
     "static/js/113.47facc54.chunk.js": "/portfolio/static/js/113.47facc54.chunk.js",
@@ -10,19 +10,20 @@
     "static/media/JOSEPH resume.pdf": "/portfolio/static/media/JOSEPH resume.a0f2e39fb16e671ead8e.pdf",
     "static/media/symbleapp.png": "/portfolio/static/media/symbleapp.3d6dc76f8716fb8ff4db.png",
     "static/media/coachingappimage.png": "/portfolio/static/media/coachingappimage.b00e402b63b7867c4831.png",
+    "static/media/teleportimage.png": "/portfolio/static/media/teleportimage.924d17da1db9a78b20dc.png",
     "static/media/loanappimage.png": "/portfolio/static/media/loanappimage.3f11347089a65bc11760.png",
     "static/media/chatappimage.png": "/portfolio/static/media/chatappimage.65517e99d0284c3bca78.png",
     "static/media/side circles.png": "/portfolio/static/media/side circles.a7092bcc3efb8b17928b.png",
     "static/media/Path 1.png": "/portfolio/static/media/Path 1.902b299c3badd49e4445.png",
     "index.html": "/portfolio/index.html",
     "main.d333ce8e.css.map": "/portfolio/static/css/main.d333ce8e.css.map",
-    "main.1e1ca9e8.js.map": "/portfolio/static/js/main.1e1ca9e8.js.map",
+    "main.f6864efb.js.map": "/portfolio/static/js/main.f6864efb.js.map",
     "200.963506ec.chunk.js.map": "/portfolio/static/js/200.963506ec.chunk.js.map",
     "956.fa3d07cd.chunk.js.map": "/portfolio/static/js/956.fa3d07cd.chunk.js.map",
     "113.47facc54.chunk.js.map": "/portfolio/static/js/113.47facc54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d333ce8e.css",
-    "static/js/main.1e1ca9e8.js"
+    "static/js/main.f6864efb.js"
   ]
 }
