@@ -15,6 +15,7 @@ import chatAppImg from "./images/chatappimage.png";
 import coachAppImg from "./images/coachingappimage.png";
 import oyinkanImg from "./images/oyinkan.jpg";
 import resturantImg from "./images/resturant.png";
+import teleportImg from "./images/teleportimage.png";
 import loanImg from "./images/loanappimage.png";
 
 import r1 from "./images/R 1.png";
@@ -58,23 +59,33 @@ const person = {
       id: 1,
     },
     {
-      title: "JOE'S RESTURANT",
-      description:
-        "The resturant project is a highly responsive resturant service app that allow for real-time table reservation on behalf of a resturant buisness on the ground, it is a joint project that is built with Node.js, Express, React, MongoDB and AWS for hosting and configurations",
-      image: resturantImg,
-      link: "https://bajoescience.github.io/resturant",
-      githubLink: "https://github.com/bajoescience/resturant",
-      id: 2,
-    },
-    {
       title: "CHATAPP",
       description:
         "The CHATAPP project is a realtime chatting app that allows for users to be able to chat with each other. This project is built using React, the IO library, Node.js, Express, MongoDB.",
       image: chatAppImg,
       link: "https://bajoescience.github.io/chat",
       githubLink: "https://github.com/bajoescience/chat",
-      id: 3,
+      id: 2,
     },
+    {
+      title: "TELEPORT",
+      description:
+        "This single webpage is an highly reponsive simple static website built using vanilla HTML and CSS and merges different UI/UX styles and designs for a visually and aesthetically pleasing landing page website.",
+      id: 3,
+      link: "https://bajoescience.github.io/teleport.github.io/",
+      githubLink: "https://github.com/bajoescience/teleport.github.io",
+      image: teleportImg,
+    },
+    {
+      title: "JOE'S RESTURANT",
+      description:
+        "The resturant project is a highly responsive resturant service app that allow for real-time table reservation on behalf of a resturant buisness on the ground, it is a joint project that is built with Node.js, Express, React, MongoDB and AWS for hosting and configurations",
+      image: resturantImg,
+      link: "https://bajoescience.github.io/resturant",
+      githubLink: "https://github.com/bajoescience/resturant",
+      id: 4,
+    },
+
     {
       title: "COACHING WEBSITE",
       description:
@@ -82,13 +93,8 @@ const person = {
       image: coachAppImg,
       link: "https://bajoescience.github.io/coachjossy/",
       githubLink: "https://github.com/bajoescience/coachjossy",
-      id: 4,
+      id: 5,
     },
-    // {
-    //   title: "TELEPORT",
-    //   description:
-    //     "This is a mock up static website that merges different styles and designs.",
-    // },
   ],
   skills: [
     "REACT",
