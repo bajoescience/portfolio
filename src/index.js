@@ -59,22 +59,22 @@ const person = {
       id: 1,
     },
     {
+      title: "TELEPORT",
+      description:
+        "This single webpage is an highly reponsive simple static website built using vanilla HTML and CSS and merges different UI/UX styles and designs for a visually and aesthetically pleasing landing page website.",
+      id: 2,
+      link: "https://bajoescience.github.io/teleport.github.io/",
+      githubLink: "https://github.com/bajoescience/teleport.github.io",
+      image: teleportImg,
+    },
+    {
       title: "CHATAPP",
       description:
         "The CHATAPP project is a realtime chatting app that allows for users to be able to chat with each other. This project is built using React, the IO library, Node.js, Express, MongoDB.",
       image: chatAppImg,
       link: "https://bajoescience.github.io/chat",
       githubLink: "https://github.com/bajoescience/chat",
-      id: 2,
-    },
-    {
-      title: "TELEPORT",
-      description:
-        "This single webpage is an highly reponsive simple static website built using vanilla HTML and CSS and merges different UI/UX styles and designs for a visually and aesthetically pleasing landing page website.",
       id: 3,
-      link: "https://bajoescience.github.io/teleport.github.io/",
-      githubLink: "https://github.com/bajoescience/teleport.github.io",
-      image: teleportImg,
     },
     {
       title: "JOE'S RESTURANT",
