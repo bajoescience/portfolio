@@ -72,7 +72,7 @@ const person = {
       description:
         "The CHATAPP project is a realtime chatting app that allows for users to be able to chat with each other. This project is built using React, the IO library, Node.js, Express, MongoDB.",
       image: chatAppImg,
-      link: "https://chat-backend-2zjb.onrender.com",
+      link: "https://chat-backend-2zjb.onrender.com/chat",
       githubLink: "https://github.com/bajoescience/chat",
       id: 3,
     },
